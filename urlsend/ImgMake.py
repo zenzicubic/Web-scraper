@@ -13,4 +13,4 @@ for i in range(len(text)):
         f.write(bytesDat)
         f.close()
     except urllib.error.HTTPError:
-        print("")
+        pass
